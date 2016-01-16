@@ -1,4 +1,4 @@
-- hosts: wordpress
+- hosts: localhost
 
   roles:
     - server
