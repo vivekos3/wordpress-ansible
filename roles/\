@@ -1,0 +1,7 @@
+---
+# tasks file for wordpress
+- name: Download WordPress  get_url: 
+    url=https://wordpress.org/latest.tar.gz 
+    dest=/tmp/wordpress.tar.gz
+    validate_certs=no 
+    sudo: yes
